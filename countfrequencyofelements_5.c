@@ -24,3 +24,10 @@ int main() {
 
     return 0;
 }
+
+/*Each element is compared with remaining elements.
+
+Time Complexity:
+O(n2)
+Space Complexity:
+O(n):because of the visited[] array.*/
