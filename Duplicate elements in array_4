@@ -17,3 +17,8 @@ int main() {
 
     return 0;
 }
+/*
+For the nested loop approach:
+O(n2) Because each element is compared with every other element.
+Using hashing/set methods can improve it to:
+O(n) using extra memory.*/
