@@ -7,4 +7,4 @@ Learn by doing
 5. Reverse a string,check anangram,remove duplicates from a string,LCM of two no.s,check leap year
 6. Count vowels and consonants,insertion sort,matrix addition,armstrong number,sum of digits,largest of three no.s
 
-   
+@ Duplicate elements in an array ,list or string   values that appear more than once in an array, list, or string.
