@@ -6,8 +6,10 @@ Learn by doing
 4. Binary search,bubble sort,selection sort,finding second largest in array,linear search
 5. Reverse a string,check anangram,remove duplicates from a string,LCM of two no.s,check leap year
 6. Count vowels and consonants,insertion sort,matrix addition,armstrong number,sum of digits,largest of three no.s
-
-@ Duplicate elements in an array ,list or string   values that appear more than once in an array, list, or string.
+7. Duplicate elements in an array ,list or string   values that appear more than once in an array, list, or string.
+8. emertexe (basic refresher( 1-9),function and pointer ( 13-17) - oct 27 ,2026
+9. start for python
+10. 
 Yes. 
 Ubuntu/Linux:
 
