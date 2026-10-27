@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+
+int my_isalnum(int ch)
+{
+    if ((ch >= 'A' && ch <= 'Z') ||
+        (ch >= 'a' && ch <= 'z') ||
+        (ch >= '0' && ch <= '9'))
+    {
+        return 1;
+    }
+
+    return 0;
+}
+
+int main()
+{
+    char ch;
+
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    if (my_isalnum((unsigned char)ch))
+        printf("Alphanumeric character\n");
+    else
+        printf("Not an alphanumeric character\n");
+
+    return 0;
+}
