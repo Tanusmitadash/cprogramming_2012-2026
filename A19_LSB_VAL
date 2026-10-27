@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main()
+{
+    unsigned int num, val;
+    int a, b;
+    unsigned int mask;
+
+    printf("Enter num and val: ");
+    scanf("%u %u", &num, &val);
+
+    printf("Enter a and b: ");
+    scanf("%d %d", &a, &b);
+
+    mask = (1U << (b - a + 1)) - 1U;
+
+    val = (val & ~(mask << a)) | ((num & mask) << a);
+
+    printf("Result = %u\n", val);
+
+    return 0;
+}
