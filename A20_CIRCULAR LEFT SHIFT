@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
+    unsigned int num;
+    int n;
+    int bits = sizeof(num) * CHAR_BIT;
+
+    printf("Enter a number: ");
+    scanf("%u", &num);
+
+    printf("Enter number of positions to rotate left: ");
+    scanf("%d", &n);
+
+    n = n % bits;
+
+    unsigned int result = (num << n) | (num >> (bits - n));
+
+    printf("Circular left shift = %u\n", result);
+
+    return 0;
+}
